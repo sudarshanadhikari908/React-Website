@@ -1,11 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import image from '../src/image/1.jpg';
+import Common from './Common';
 
 
 
 const Home = () => {
 
     return (<>
-        <h1> Welcome to our official Page</h1>
+        <Common name='Grow your business with' imgscr={image} visit='/service' btnname='Get Started' />
     </>);
 
 };

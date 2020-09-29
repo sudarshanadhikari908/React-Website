@@ -5,7 +5,8 @@ import Service from './Service';
 import Contact from './Contact';
 import Navbar from './Navbar';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import Footer from './Footer';
 import { Switch, Route, Redirect } from "react-router-dom";
 
 
@@ -21,6 +22,7 @@ const App = () => {
         <Redirect to='/' />
 
       </Switch>
+      <Footer />
     </>
 
   );
